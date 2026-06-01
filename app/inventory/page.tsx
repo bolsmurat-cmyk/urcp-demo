@@ -95,7 +95,7 @@ function InventoryContent() {
                   </div>
                   <div style={{ textAlign: 'right', minWidth: 48, marginRight: 8 }}>
                     <div style={{ fontSize: 13, fontWeight: 500, color: row.qty <= 10 ? '#E24B4A' : '#1a1a1a' }}>{row.qty}</div>
-                    <div style={{ fontSize: 10, color: '#bbb' }}>{row.unit ?? 'units'}</div>
+                    <div style={{ fontSize: 10, color: '#bbb' }}>{'units'}</div>
                   </div>
                   <div style={{ minWidth: 72, textAlign: 'right' }}>
                     {xfer > 0
